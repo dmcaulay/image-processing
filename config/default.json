@@ -1,0 +1,20 @@
+{
+  "imageProcessing" : {
+    "maxConcurrent" : 5,
+    "maxErrors" : 5,
+    "processors" : ["details","split","thumb","mobile","resize","details","upload"],
+    "details" : {
+      "minWidth" : 50,
+      "minHeight" : 50
+    },
+    "thumb" : {
+      "width" : 200
+    },
+    "mobile" : {
+      "width" : 320
+    },
+    "resize" : {
+      "width" : 800
+    }
+  }
+}
